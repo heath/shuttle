@@ -1,0 +1,18 @@
+{
+  "name": "shuttle",
+  "version": "0.0.1",
+  "description": "shuttling messages between nxlog and redis since 2014",
+  "dependencies": {
+    "restify": "^2.6.3",
+    "node-redis": "^0.1.7"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "grunt-contrib-coffee": "^0.10.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt": "^0.4.4"
+  },
+  "scripts": {
+    "start": "node lib/server.js"
+  }
+}
