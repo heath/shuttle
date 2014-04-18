@@ -1,6 +1,6 @@
 {
   "name": "shuttle",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "shuttling messages between nxlog and redis since 2014",
   "dependencies": {
     "restify": "^2.6.3",
