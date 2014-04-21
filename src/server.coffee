@@ -18,4 +18,4 @@ server.post '/:origin', (req, res, next) ->
   res.send 200
   next()
 
-server.listen 3838, -> console.log "#{server.name} on #{server.url}"
+server.listen 3000, -> console.log "#{server.name} on #{server.url}"
